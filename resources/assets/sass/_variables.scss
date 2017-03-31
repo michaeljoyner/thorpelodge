@@ -1,6 +1,17 @@
+//type
+$body_font: 'Raleway', serif;
+$sans_serif: 'Playfair Display', sans-serif;
 
 // Body
 $body-bg: #f5f8fa;
+
+//brand-colours
+$brand_dark: #262524;
+$brand_grey: #9A9897;
+$brand_midgrey: #9A9897;
+$brand_lightgrey: #D3D2D0;
+
+$white: #ffffff;
 
 // Borders
 $laravel-border-color: darken($body-bg, 10%);

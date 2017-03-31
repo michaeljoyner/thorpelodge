@@ -1,0 +1,41 @@
+.main-header {
+  font-family: $sans_serif;
+
+  .site-title, .established {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  h1.site-title {
+    font-size: 27px;
+  }
+
+  p.site-title {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: calc(50% + 2px);
+      left: 0;
+      height: 2px;
+      background: $brand_dark;
+      width: 100vw;
+      z-index: -1;
+    }
+  }
+
+  .established {
+    background: $white;
+    padding: 0 4px;
+    small {
+      font-size: 80%;
+    }
+
+    &:not(small) {
+      font-size: 110%;
+    }
+
+
+  }
+}

@@ -1,0 +1,24 @@
+.action-button {
+  display: inline-block;
+  padding: 6px 4px;
+  border: 3px solid;
+  width: 12em;
+  text-decoration: none;
+  color: $brand_dark;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+
+  &:hover {
+    color: $brand_grey;
+  }
+}
+
+.action-button.white {
+  color: $white;
+}
+
+.action-button.centered {
+  display: block;
+  margin: 50px auto 1em;
+}

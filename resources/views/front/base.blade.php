@@ -6,6 +6,7 @@
     <title>@yield('title', 'Thorpe Lodge')</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     @yield('head')
     <script>
@@ -19,6 +20,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <div class="main-container" id="app">
+    @include('front.partials.header')
     @yield('content')
     @include('front.partials.footer')
 </div>

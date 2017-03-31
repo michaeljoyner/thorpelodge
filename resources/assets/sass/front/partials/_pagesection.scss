@@ -1,0 +1,19 @@
+.page-section {
+  padding: 50px 0;
+  border-bottom: 1px solid $brand_grey;
+
+  .section-title {
+    font-family: $sans_serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    font-size: 200%;
+  }
+
+  & > p {
+    max-width: 800px;
+    width: 95%;
+    margin: 1em auto;
+    line-height: 1.4;
+  }
+}

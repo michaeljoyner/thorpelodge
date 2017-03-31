@@ -1,0 +1,44 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  max-width: 800px;
+  margin: 0 auto;
+
+  a, a:visited, a:focus, a:active {
+    text-decoration: none;
+    color: $brand_dark;
+  }
+
+  .nav-item {
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    position: relative;
+
+    &:hover {
+      color: $brand_grey;
+    }
+
+    &::after {
+      content: '';
+      width: 2px;
+      height: 2px;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      background: $white;
+      transition: .6s;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    &:hover::after {
+      background: $brand_grey;
+      transform: scale(100, 1);
+    }
+  }
+}

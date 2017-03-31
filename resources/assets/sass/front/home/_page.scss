@@ -1,0 +1,62 @@
+.home-hero {
+  background: url(./images/homehero.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.page-section.wedding-venue-section {
+  padding-top: 0;
+  .section-inner {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .picture-call-out {
+      width: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: auto;
+    }
+  }
+
+}
+
+.location-section {
+  .map-image {
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid $brand_lightgrey;
+  }
+
+  .directions-outer {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .direction-column {
+      width: 49%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: auto;
+      padding: 0 50px;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.gallery-section {
+  height: 500px;
+  background: url(./images/gallery_bg.jpeg);
+  background-size: cover;
+  background-position-y: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

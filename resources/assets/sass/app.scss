@@ -2,3 +2,15 @@
 @import "variables";
 
 @import "mixins/media";
+
+@import "front/partials/base";
+@import "front/partials/main_header";
+@import "front/partials/navbar";
+@import "front/partials/hero";
+@import "front/partials/pagesection";
+@import "front/partials/buttons";
+@import "front/partials/picture_call_out";
+@import "front/partials/footer";
+
+//home page
+@import "front/home/page";
