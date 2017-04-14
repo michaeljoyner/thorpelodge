@@ -2,6 +2,13 @@
   background: url(./images/homehero.jpg);
   background-size: cover;
   background-position-y: 30%;
+
+  &.hero {
+    @include respond-to(phone) {
+      height: 60vw;
+      margin-top: 30px;
+    }
+  }
 }
 
 .page-section.wedding-venue-section {
@@ -12,11 +19,23 @@
     margin: 0 auto;
     justify-content: space-between;
 
+    @include respond-to(phone) {
+      flex-direction: column;
+    }
+
     .picture-call-out {
       width: 50%;
       flex-grow: 0;
       flex-shrink: 0;
       flex-basis: auto;
+
+      @include respond-to(phone) {
+        width: 100%;
+
+        .action-button {
+          margin: 0 auto 50px;
+        }
+      }
     }
   }
 
@@ -31,11 +50,19 @@
     border: 1px solid $brand_lightgrey;
   }
 
+  .action-button:hover {
+    color: $google_colour;
+  }
+
   .directions-outer {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+    @include respond-to(phone) {
+      flex-direction: column;
+    }
 
     .direction-column {
       width: 49%;
@@ -43,6 +70,10 @@
       flex-shrink: 0;
       flex-basis: auto;
       padding: 0 50px;
+
+      @include respond-to(phone) {
+        width: 100%;
+      }
 
       p {
         text-align: center;

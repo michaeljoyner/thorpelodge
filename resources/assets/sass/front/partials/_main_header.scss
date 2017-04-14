@@ -1,5 +1,9 @@
 .main-header {
   font-family: $sans_serif;
+  border-bottom: 1px solid $brand_lightgrey;
+
+  @include respond-to(phone) { border-bottom: none; }
+
 
   .site-title, .established {
     text-align: center;

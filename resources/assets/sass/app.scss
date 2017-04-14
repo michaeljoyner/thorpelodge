@@ -11,6 +11,19 @@
 @import "front/partials/buttons";
 @import "front/partials/picture_call_out";
 @import "front/partials/footer";
+@import "front/partials/modalvue";
+@import "front/partials/typography";
+@import "front/partials/lightbox";
+@import "front/partials/nav_positioning";
 
 //home page
 @import "front/home/page";
+
+@import "front/weddings/page";
+@import "front/accommodation/page";
+@import "front/functions/page";
+
+@import "front/contact/page";
+@import "front/contact/form";
+
+@import "front/gallery/page";

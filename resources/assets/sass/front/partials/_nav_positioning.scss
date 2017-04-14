@@ -1,0 +1,35 @@
+.main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: $white;
+  z-index: 9999999;
+  transition: .6s;
+
+  .header-logo {
+    transition: .4s;
+  }
+
+  @include respond-to(phone) {
+    //position: relative;
+  }
+}
+
+.scrolled {
+
+  .main-header {
+    transform: translate3d(0,-90px,0);
+
+    @include respond-to(phone) {
+      transform: translate3d(0,0,0);
+    }
+
+    .header-logo {
+      transform: scale(1,0);
+
+      @include respond-to(phone) {
+        transform: scale(1);
+      }
+    }
+  }
+}

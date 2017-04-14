@@ -1,0 +1,128 @@
+.contact-form {
+  width: 95%;
+  max-width: 550px;
+  margin: 2em auto 80px;
+
+  .form-group {
+    margin: 1.5em 0;
+
+    &.has-error {
+      input, textarea {
+        border-color: $google_colour;
+      }
+
+      .error-message {
+        color: $google_colour;
+      }
+    }
+
+    button {
+      font-size: 1em;
+    }
+
+    .action-button {
+      transition: .4s;
+      &.waiting {
+        animation-name: throb;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+      }
+    }
+
+    label {
+      font-size: 80%;
+    }
+
+    input {
+      width: 100%;
+      height: 32px;
+      border-radius: 0;
+      border: 1px solid $brand_grey;
+      padding-left: 5px;
+      font-size: 1em;
+      font-family: $body_font;
+    }
+
+    input[type=date] {
+      color: $brand_grey;
+      font-family: $body_font;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      border: 1px solid $brand_grey;
+      resize: none;
+      padding: 5px;
+      font-size: 1em;
+    }
+  }
+
+  .radio-field {
+    display: inline-block;
+    width: 49%;
+
+    input[type=radio] {
+      display: none;
+    }
+
+    input[type=radio]:checked + label {
+
+      .label-inner::before {
+        background: $brand_dark;
+      }
+    }
+
+    .label-inner::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid $brand_grey;
+      margin-right: 10px;
+      vertical-align: sub;
+      transition: .3s;
+    }
+  }
+
+  .slider {
+    vertical-align: middle;
+    width: 250px;
+
+    .range-slider-fill, .range-slider-knob {
+      background: $brand_dark;
+    }
+  }
+
+  .modal-header {
+    font-family: $sans_serif;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .modal-body {
+    font-family: $body_font;
+  }
+
+  .modal-footer {
+    button {
+      font-size: 1em;
+    }
+
+
+  }
+}
+
+@keyframes throb {
+  0% {transform: scale(1); opacity: 1;}
+  100% {transform: scale(.9); opacity: .7;}
+}

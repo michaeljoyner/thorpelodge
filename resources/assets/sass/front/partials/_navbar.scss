@@ -6,6 +6,37 @@
   max-width: 800px;
   margin: 0 auto;
 
+  @include respond-to(phone) {
+    display: flex;
+    position: absolute;
+    transform: translate3d(0,-110%,0);
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: $brand_dark;
+    color: $white;
+    top: 0;
+    left: 0;
+    transition: .7s;
+
+    .nav-item {
+      padding: 10px 0;
+
+      &.for-mobile {
+        display: inline;
+      }
+
+      .nav-link {
+        color: $white;
+        &::after {
+          display: none;
+        }
+      }
+
+
+    }
+  }
+
   a, a:visited, a:focus, a:active {
     text-decoration: none;
     color: $brand_dark;
@@ -14,10 +45,29 @@
   .nav-item {
     padding-bottom: 10px;
     overflow: hidden;
+
+    &.for-mobile {
+      display: none;
+    }
+
+    &:not(.for-mobile) {
+      @include respond-to(phone) {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 1px solid $brand_grey;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 140%;
+      }
+
+    }
   }
 
   .nav-link {
     position: relative;
+
+
 
     &:hover {
       color: $brand_grey;
@@ -41,4 +91,52 @@
       transform: scale(100, 1);
     }
   }
+}
+
+.open-trigger {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  padding-top: 25px;
+
+  @include respond-to(phone) {
+    display: block;
+  }
+
+  svg {
+    width: 30px;
+  }
+}
+
+#nav-trigger {
+  display: none;
+}
+
+#nav-trigger:checked + .main-navbar {
+  @include respond-to(phone) {
+    transform: translate3d(0,0,0);
+  }
+}
+
+@include respond-to(phone) {
+  .main-navbar span.nav-item.for-mobile {
+    display: inline;
+  }
+}
+
+.nav-item {
+
+  &.logo-line-item {
+    padding: 30px 0;
+  }
+
+  &.close-trigger {
+    label {
+      font-size: 3.5em;
+      font-weight: 700;
+    }
+  }
+
 }

@@ -12,3 +12,10 @@
 */
 
 Route::get('/', 'PagesController@homepage');
+Route::get('weddings', 'PagesController@weddings');
+Route::get('accommodation', 'PagesController@accommodation');
+Route::get('functions', 'PagesController@functions');
+Route::get('gallery', 'PagesController@gallery');
+
+Route::get('contact', 'ContactController@show');
+Route::post('contact', 'ContactController@store');

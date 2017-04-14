@@ -1,5 +1,58 @@
 .main-footer {
   width: 100%;
-  min-height: 400px;
-  background: $brand_grey;
+  background: $brand_dark;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .footer-logo {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 250px;
+    width: 95%;
+  }
+
+  .social-block {
+    display: flex;
+
+    .social-link {
+      margin: 20px 15px;
+      transition: .5s;
+
+      &:hover {
+
+        path {
+          fill: $brand_grey;
+        }
+      }
+
+      svg {
+        width: 20px;
+        max-height: 20px;
+      }
+    }
+  }
+
+  .phone-contact {
+    font-family: $sans_serif;
+    color: $white;
+    margin-top: 0;
+  }
+
+  .credits {
+    color: $white;
+    font-family: $body_font;
+    font-size: 80%;
+    padding-top: 40px;
+
+    a:visited, a:active, a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: #f06060;
+      }
+    }
+  }
 }

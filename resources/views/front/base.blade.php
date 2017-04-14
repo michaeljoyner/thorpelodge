@@ -24,7 +24,7 @@
     @yield('content')
     @include('front.partials.footer')
 </div>
-{{--<script src="{{ elixir('js/front.js') }}"></script>--}}
+<script src="{{ mix('js/app.js') }}"></script>
 @yield('bodyscripts')
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
