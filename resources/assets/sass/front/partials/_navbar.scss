@@ -11,7 +11,9 @@
     position: absolute;
     transform: translate3d(0,-110%,0);
     flex-direction: column;
+    justify-content: flex-start;
     height: auto;
+    min-height: 100vh;
     width: 100%;
     background: $brand_dark;
     color: $white;
@@ -46,6 +48,16 @@
     padding-bottom: 10px;
     overflow: hidden;
 
+    &:hover {
+      @include respond-to(phone) {
+        background: $white;
+
+        .nav-link {
+          color: $brand_dark;
+        }
+      }
+    }
+
     &.for-mobile {
       display: none;
     }
@@ -56,8 +68,8 @@
         width: 100%;
         border-bottom: 1px solid $brand_grey;
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 17px;
+        padding-bottom: 17px;
         font-size: 140%;
       }
 
@@ -69,7 +81,7 @@
 
 
 
-    &:hover {
+    &:hover, &.current {
       color: $brand_grey;
     }
 
@@ -86,7 +98,7 @@
       overflow: hidden;
     }
 
-    &:hover::after {
+    &:hover::after, &.current::after {
       background: $brand_grey;
       transform: scale(100, 1);
     }
@@ -99,7 +111,7 @@
   top: 0;
   left: 0;
   padding: 10px;
-  padding-top: 25px;
+  padding-top: 13px;
 
   @include respond-to(phone) {
     display: block;
@@ -134,9 +146,13 @@
 
   &.close-trigger {
     label {
-      font-size: 3.5em;
-      font-weight: 700;
+      font-size: 1em;
+
+      svg {
+        padding: 4px 0;
+      }
     }
+
   }
 
 }

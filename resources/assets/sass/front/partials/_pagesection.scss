@@ -2,18 +2,43 @@
   padding: 50px 0;
   border-bottom: 1px solid $brand_grey;
 
+  @include respond-to(phone) {
+    padding: 30px 0;
+  }
+
+  &.no-bottom {
+    border-bottom: none;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
   .section-title {
     font-family: $sans_serif;
     font-weight: 400;
     text-align: center;
     margin-top: 0;
     font-size: 300%;
+
+    @include respond-to(phone) {
+      font-size: 250%;
+    }
+  }
+
+  & > p.subsection-heading {
+    margin-bottom: 50px;
+
+    @include respond-to(phone) {
+      margin-bottom: 30px;
+      font-size: 1em;
+    }
   }
 
   & > p {
     max-width: 800px;
     width: 95%;
     margin: 1em auto;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 }

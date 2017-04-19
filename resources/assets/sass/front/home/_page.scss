@@ -28,13 +28,62 @@
       flex-grow: 0;
       flex-shrink: 0;
       flex-basis: auto;
+      position: relative;
 
       @include respond-to(phone) {
         width: 100%;
 
-        .action-button {
-          margin: 0 auto 50px;
+        & > a.action-button {
+          position: absolute;
+          left: 50%;
+          transition: .8s;
+          transform: translateX(-50%) scale(1);
+          color: $white;
+          opacity: 1;
         }
+      }
+
+      & > img {
+        transition: .8s;
+      }
+
+      .action-button {
+        transition: .8s;
+      }
+
+
+
+      &:hover {
+        p, .action-button {
+          transform: translateX(-50%) scale(1);
+          opacity: 1;
+        }
+
+        .action-button:hover {
+          transform: translateX(-50%) scale(1.05);
+        }
+
+        img {
+          filter: brightness(50%);
+        }
+      }
+
+      & > p, & > .action-button {
+        position: absolute;
+        left: 50%;
+        transition: .8s;
+        //transition-delay: .4s;
+        transform: translateX(-50%) scale(1);
+        color: $white;
+        opacity: 0;
+      }
+
+      & > p {
+        top: 70%;
+      }
+
+      & > .action-button {
+        top: 30%;
       }
     }
   }
@@ -77,17 +126,29 @@
 
       p {
         text-align: center;
+        font-size: 80%;
+        line-height: 1.6;
       }
     }
   }
 }
 
 .gallery-section {
-  height: 500px;
+  height: 600px;
   background: url(./images/gallery_bg.jpeg);
   background-size: cover;
   background-position-y: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .action-button {
+    transition: .4s;
+  }
+
+  .action-button:hover {
+    background: $white;
+    color: $brand_dark;
+    border-color: transparent;
+  }
 }
