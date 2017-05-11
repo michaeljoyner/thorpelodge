@@ -9,9 +9,3 @@ window.axios.defaults.headers.common = {
 
 Vue.prototype.$http = axios;
 
-import lightgallery from 'lightgallery';
-import lgshare from 'lg-share';
-import lgfullscreen from 'lg-fullscreen';
-
-window.lightgallery = lightgallery;
-
