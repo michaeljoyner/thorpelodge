@@ -1,6 +1,6 @@
 .dd-lightbox {
   position: relative;
-  width: 40%;
+  width: 80%;
   margin: 0;
 
   .close-lightbox-btn {
@@ -14,6 +14,21 @@
 
     &:hover {
       color: $brand_blue;
+    }
+  }
+
+  .social-sharing-options {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+
+    a {
+      margin: 10px;
+
+      &:hover svg path {
+        fill: $brand_blue;
+      }
     }
   }
 
@@ -44,7 +59,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.9);
     z-index: 9999999;
 
     .hover-action-indicator {
@@ -64,6 +79,10 @@
     //align-items: center;
 
     .close-lightbox-btn {
+      display: block;
+    }
+
+    .social-sharing-options {
       display: block;
     }
 

@@ -13,7 +13,7 @@
     <section class="page-section wedding-venue-section no-bottom">
         <div class="section-inner">
             <div class="picture-call-out">
-                <img src="/images/ceremony.jpeg" alt="couple saying their vows">
+                <img src="/images/wedding_couple.jpg" alt="couple saying their vows">
                 <p>Find out how Thorpe Lodge can make your dream wedding a reality.</p>
                 <a href="" class="action-button centered">Weddings</a>
             </div>

@@ -11,7 +11,7 @@ body {
   padding: 0;
   color: $brand_dark;
   font-family: $body_font;
-  padding-top: 164px;
+  padding-top: 150px;
 
-  @include respond-to(phone) { padding-top: 70px; }
+  @include respond-to(phone) { padding-top: 50px; }
 }
