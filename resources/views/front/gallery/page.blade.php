@@ -3,7 +3,7 @@
 @section('content')
     <section class="page-section gallery-page-section">
         <h1 class="section-title">Gallery</h1>
-        <p class="centered-text">Take a look at our pictures, they are visually enticing.</p>
+        <p class="centered-text">A small collection of images from some of our previous weddings and functions.</p>
         <div class="gallery">
             <light-box :open="false"
                        title="Weddings"
