@@ -6,14 +6,14 @@
     <div class="dd-lightbox card-image-holder" :class="{'open': open}">
         <div class="close-lightbox-btn" @click="open = false">&times;</div>
         <div class="social-sharing-options">
-            <a :href="pinterest_link">
+            <a :href="pinterest_link" target="_blank">
                 <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.76 26.81">
                     <title>pinterest</title>
                     <path fill="#fff"
                           d="M11,0C3.69,0,0,5.25,0,9.62c0,2.65,1,5,3.15,5.88a.53.53,0,0,0,.77-.38c.07-.27.24-1,.31-1.24A.75.75,0,0,0,4,13a4.44,4.44,0,0,1-1-3,7.29,7.29,0,0,1,7.58-7.38c4.14,0,6.41,2.53,6.41,5.9,0,4.44-2,8.19-4.88,8.19a2.38,2.38,0,0,1-2.43-3C10.14,11.8,11,9.7,11,8.29A2.06,2.06,0,0,0,9,6c-1.65,0-3,1.7-3,4a5.92,5.92,0,0,0,.49,2.44l-2,8.39a17.29,17.29,0,0,0,0,5.85.21.21,0,0,0,.37.09,16.43,16.43,0,0,0,2.78-5c.19-.68,1.08-4.23,1.08-4.23a4.41,4.41,0,0,0,3.76,1.92c5,0,8.31-4.51,8.31-10.55C20.76,4.26,16.89,0,11,0"/>
                 </svg>
             </a>
-            <a :href="facebook_link">
+            <a :href="facebook_link" target="_blank">
                 <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.92 26.81">
                     <title>facebook</title>
                     <path fill="#fff"
