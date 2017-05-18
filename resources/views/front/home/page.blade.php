@@ -8,7 +8,7 @@
         <p class="centered-text">Thorpe Lodge is an elegant country lodge and wedding venue in the heart of the KZN Midlands sugar lands. Thorpe Lodge boosts a beautifully restored 19th century stone, a breathtaking thatched lapa, original red brick farmhouse, rondavel dining room and lounge, and four well-appointed suites.</p>
         <p class="centered-text">Established in 2001, Thorpe Lodge is proudly owned and managed by the Koch family. Experience, excellent service, professionalism, outstanding food and the utmost care is what you can expect from the Thorpe Lodge team.</p>
         <p class="centered-text">It’s the perfect place to start the rest of your lives together, or for a quiet getaway from the hustle and bustle to rejuvenate.</p>
-        <a href="" class="action-button centered">Get in Touch</a>
+        <a href="/contact" class="action-button centered">Get in Touch</a>
     </section>
     <section class="page-section wedding-venue-section no-bottom">
         <div class="section-inner">
@@ -41,6 +41,6 @@
         </div>
     </section>
     <section class="page-section gallery-section">
-        <a href="" class="action-button white">View Gallery</a>
+        <a href="/gallery" class="action-button white">View Gallery</a>
     </section>
 @endsection

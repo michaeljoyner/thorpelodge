@@ -45,8 +45,3 @@
         </div>
     </section>
 @endsection
-
-@section('bodyscripts')
-    <script>
-    </script>
-@endsection
