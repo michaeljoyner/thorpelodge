@@ -3,6 +3,10 @@
   display: flex;
   justify-content: space-around;
 
+  @include respond-to(phone) {
+    flex-direction: column;
+  }
+
 }
 
 .gallery-page-section {
