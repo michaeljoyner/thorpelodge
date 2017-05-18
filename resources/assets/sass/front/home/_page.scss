@@ -2,6 +2,7 @@
   background: url(./images/homepage.jpg);
   background-size: cover;
   background-position-y: 30%;
+  background-position-x: 50%;
 
   &.hero {
     @include respond-to(phone) {
