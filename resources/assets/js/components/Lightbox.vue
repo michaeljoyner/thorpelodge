@@ -29,9 +29,19 @@
                 </transition>
             </div>
             <div class="lightbox-nav-arrow dd-prev-arrow" @click="showPrev"
-                 v-show="open && (galleryImages.length > 1)">&larr;</div>
+                 v-show="open && (galleryImages.length > 1)">
+                <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.9 258.48">
+                    <polyline fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="20px"
+                              points="135.79 251.41 14.14 129.75 136.83 7.07"/>
+                </svg>
+            </div>
             <div class="dd-next-arrow lightbox-nav-arrow" @click="showNext"
-                 v-show="open && (galleryImages.length > 1)">&rarr;</div>
+                 v-show="open && (galleryImages.length > 1)">
+                <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.9 258.48">
+                    <polyline fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="20px" class="cls-1"
+                              points="8.11 7.07 129.75 128.72 7.07 251.41"/>
+                </svg>
+            </div>
         </div>
         <p class="display-title" @click="open = true" v-show="!open">{{ title }}</p>
     </div>

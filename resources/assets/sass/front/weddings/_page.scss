@@ -1,6 +1,8 @@
 .weddings-hero {
-  background: url(./images/weddings_banner.jpg);
+  background-image: url(./images/weddings_wide.jpg);
   background-size: cover;
-  background-position-y: 0%;
-  background-position-x: 50%;
+
+  @include respond-to(phone) {
+    background-image: url(./images/weddings_narrow.jpg);
+  }
 }

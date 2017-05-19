@@ -1,11 +1,10 @@
 .home-hero {
-  background: url(./images/homepage.jpg);
+  background-image: url(./images/home_wide.jpg);
   background-size: cover;
-  background-position-y: 30%;
-  background-position-x: 50%;
 
   &.hero {
     @include respond-to(phone) {
+      background-image: url(./images/home_narrow.jpg);
       height: 60vw;
       margin-top: 30px;
     }
@@ -62,6 +61,7 @@
 
         .action-button:hover {
           transform: translateX(-50%) scale(1.05);
+          color: $brand_blue;
         }
 
         img {

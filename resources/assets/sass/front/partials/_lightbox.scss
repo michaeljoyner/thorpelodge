@@ -130,7 +130,9 @@
     cursor: default;
 
     &:hover {
-      color: $brand_blue;
+      svg polyline {
+        stroke: $brand_blue;
+      }
     }
   }
 

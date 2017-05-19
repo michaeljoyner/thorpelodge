@@ -9,9 +9,10 @@
   margin-top: 50px;
   font-weight: 600;
   background: none;
+  transition: .5s;
 
   &:hover {
-    color: $brand_grey;
+    color: $brand_blue;
   }
 }
 

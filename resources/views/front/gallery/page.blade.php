@@ -22,7 +22,9 @@
                            {src: "/galleries/wedding/gall_w10.jpg"},
                            {src: "/galleries/wedding/gall_w11.jpg"},
                            {src: "/galleries/wedding/gall_w12.jpg"},
-                           {src: "/galleries/wedding/gall_w13.jpg"}
+                           {src: "/galleries/wedding/gall_w13.jpg"},
+                           {src: "/galleries/wedding/gall_w14.jpg"},
+                           {src: "/galleries/wedding/gall_w15.jpg"}
                        ]'
             ></light-box>
             <light-box :open="false"
