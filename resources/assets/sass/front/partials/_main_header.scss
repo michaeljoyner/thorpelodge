@@ -12,8 +12,13 @@
   }
 
   h1.site-title {
-    font-size: 27px;
-    margin-top: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+
+    @include respond-to(phone) {
+      font-size: 27px;
+      margin-top: 5px;
+    }
   }
 
   p.site-title {
@@ -47,7 +52,7 @@
     }
 
     &:not(small) {
-      font-size: 110%;
+      font-size: 130%;
     }
 
 

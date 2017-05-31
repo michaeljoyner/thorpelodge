@@ -1,16 +1,24 @@
 @extends('front.base')
 
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '',
+        'ogTitle' => 'Thorpe Lodge Wedding Venue',
+        'ogDescription' => 'Thorpe Lodge is an elegant country lodge and wedding venue in the heart of the KZN Midlands sugar lands.'
+    ])
+@endsection
+
 @section('content')
     <section class="hero home-hero"></section>
     <section class="page-section">
         <h1 class="section-title">Our Story</h1>
         <p class="subsection-heading">Charming Country Lodge and Wedding Venue</p>
-        <p class="centered-text">Thorpe Lodge is an elegant country lodge and wedding venue in the heart of the KZN Midlands sugar lands. Thorpe Lodge boosts a beautifully restored 19th century stone, a breathtaking thatched lapa, original red brick farmhouse, rondavel dining room and lounge, and four well-appointed suites.</p>
+        <p class="centered-text">Thorpe Lodge is an elegant country lodge and wedding venue located in Wartburg, the heart of the KZN Midland's sugar lands. Thorpe Lodge boasts a beautifully restored 19th century stone barn, a breathtaking thatched lapa, original red brick farmhouse, rondavel dining room and lounge, and four well-appointed suites.</p>
         <p class="centered-text">Established in 2001, Thorpe Lodge is proudly owned and managed by the Koch family. Experience, excellent service, professionalism, outstanding food and the utmost care is what you can expect from the Thorpe Lodge team.</p>
         <p class="centered-text">It’s the perfect place to start the rest of your lives together, or for a quiet getaway from the hustle and bustle to rejuvenate.</p>
         <a href="/contact" class="action-button centered">Get in Touch</a>
     </section>
-    <section class="page-section wedding-venue-section no-bottom">
+    <section class="page-section wedding-venue-section no-bottom non-padded">
         <div class="section-inner">
             <div class="picture-call-out">
                 <img src="/images/wedding_couple.jpg" alt="couple saying their vows">
@@ -24,22 +32,21 @@
             </div>
         </div>
     </section>
-    <section class="page-section location-section">
-        <h1 class="section-title">Location</h1>
-        <p class="centered-text">Thorpe Lodge is a well established venue nestled in the heart of KZN's sugar lands. Thorpe Lodge is just 2km outside the quaint little town of Wartburg.</p>
-        <a href="https://www.google.com.tw/maps/place/Thorpe+Lodge+Farm/@-29.4260636,30.6046499,17z/data=!4m12!1m6!3m5!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!2sThorpe+Lodge+Farm!8m2!3d-29.4260636!4d30.6068386!3m4!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!8m2!3d-29.4260636!4d30.6068386?hl=en" class="action-button centered">Google Maps</a>
-        <img src="/images/map.jpg" alt="Map to Thorpe Lodge" class="map-image">
-        <div class="directions-outer">
-            <div class="direction-column">
-                <p><strong>From Durban</strong></p>
-                <p>Take exit 81 from the N3 northbound to get onto the R33/M70. Use the right two lanes to turn right onto Dr Chota Motala Road. Proceed through four sets of traffic lights, at the fifth set of traffic lights (Northway Mall will be on your left), turn right onto Bhambatha Road/R33. Continue on the R33 for approximately 12km. Turn right onto the R614 to Wartburg and travel for approximately 19km and turn left into Thorpe Lodge.</p>
+    <section class="page-section wedding-venue-section no-bottom non-padded">
+        <div class="section-inner">
+            <div class="picture-call-out">
+                <img src="/images/accomodation.jpg" alt="rusty wheel">
+                <p>Thorpe lodge provides beautiful rooms with great service.</p>
+                <a href="/accommodation" class="action-button centered">Accommodation</a>
             </div>
-            <div class="direction-column">
-                <p><strong>From Johannesburg</strong></p>
-                <p>Take exit 81 from the N3 southbound to get onto the R33/M70. Use the left 3 lanes to turn left onto Dr Chota Motala Road. Proceed through two sets of traffic lights, at the third set of traffic lights (Northway Mall will be on your left), turn right onto Bhambatha Road/R33. Continue on the R33 for approximately 12km. Turn right onto the R614 to Wartburg and travel for approximately 19km and turn left into Thorpe Lodge.</p>
+            <div class="picture-call-out">
+                <img src="/images/location.jpg" alt="stone barn">
+                <p>We are just 2km outside the quaint little town of Wartburg.</p>
+                <a href="/contact#location" class="action-button centered">Location</a>
             </div>
         </div>
     </section>
+
     <section class="page-section gallery-section">
         <a href="/gallery" class="action-button white">View Gallery</a>
     </section>
