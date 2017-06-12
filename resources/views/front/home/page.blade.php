@@ -48,6 +48,6 @@
     </section>
 
     <section class="page-section gallery-section">
-        <a href="/gallery" class="action-button white">View Gallery</a>
+        <a href="/gallery" class="action-button white">Gallery</a>
     </section>
 @endsection
