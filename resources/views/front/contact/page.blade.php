@@ -2,7 +2,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => '',
+        'ogImage' => url('/images/facebook_og.jpg'),
         'ogTitle' => 'Contact Thorpe Lodge',
         'ogDescription' => 'This is how you can get in touch with us at Thorpe Lodge.'
     ])

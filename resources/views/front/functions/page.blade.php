@@ -2,7 +2,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => '',
+        'ogImage' => url('/images/facebook_og.jpg'),
         'ogTitle' => 'Functions and Catering at Thorpe Lodge',
         'ogDescription' => 'Thorpe Lodge is a diverse venue catering for wedding and various other functions. We are well equipped to host conferences, dinner parties, cocktail parties, high teas, and everything in between.'
     ])

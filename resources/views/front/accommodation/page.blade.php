@@ -2,7 +2,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => '',
+        'ogImage' => url('/images/facebook_og.jpg'),
         'ogTitle' => 'Accommodation at Thorpe Lodge',
         'ogDescription' => 'Thorpe Lodge offers four beautiful en-suite rooms with excellent service.'
     ])

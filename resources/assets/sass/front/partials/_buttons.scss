@@ -12,7 +12,15 @@
   transition: .5s;
 
   &:hover {
+    color: $white;
+    border-color: $brand_dark;
+    background: $brand_dark;
+  }
+
+  &.coloured:hover {
     color: $brand_blue;
+    border-color: $brand_blue;
+    background: inherit;
   }
 }
 

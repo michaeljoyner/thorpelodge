@@ -2,7 +2,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => '',
+        'ogImage' => url('/images/facebook_og.jpg'),
         'ogTitle' => 'Thorpe Lodge Wedding Venue',
         'ogDescription' => 'Thorpe Lodge is an elegant country lodge and wedding venue in the heart of the KZN Midlands sugar lands.'
     ])
@@ -23,12 +23,12 @@
             <div class="picture-call-out">
                 <img src="/images/wedding_couple.jpg" alt="couple saying their vows">
                 <p>Find out how Thorpe Lodge can make your dream wedding a reality.</p>
-                <a href="/weddings" class="action-button centered">Weddings</a>
+                <a href="/weddings" class="coloured action-button centered">Weddings</a>
             </div>
             <div class="picture-call-out">
                 <img src="/images/catering.jpeg" alt="waiter serving tray of delicious food">
                 <p>Let us take care of your big event, with the perfect venue, food and atmosphere.</p>
-                <a href="/functions" class="action-button centered">Functions & Catering</a>
+                <a href="/functions" class="coloured action-button centered">Functions & Catering</a>
             </div>
         </div>
     </section>
@@ -37,12 +37,12 @@
             <div class="picture-call-out">
                 <img src="/images/accomodation.jpg" alt="rusty wheel">
                 <p>Thorpe lodge provides beautiful rooms with great service.</p>
-                <a href="/accommodation" class="action-button centered">Accommodation</a>
+                <a href="/accommodation" class="coloured action-button centered">Accommodation</a>
             </div>
             <div class="picture-call-out">
                 <img src="/images/location.jpg" alt="stone barn">
                 <p>We are just 2km outside the quaint little town of Wartburg.</p>
-                <a href="/contact#location" class="action-button centered">Location</a>
+                <a href="/contact#location" class="coloured action-button centered">Location</a>
             </div>
         </div>
     </section>
