@@ -51,3 +51,7 @@
         <a href="/gallery" class="action-button white">Gallery</a>
     </section>
 @endsection
+
+@section('bodyscripts')
+    @include('front.partials.structured')
+@endsection
