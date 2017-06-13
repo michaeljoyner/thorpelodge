@@ -11,6 +11,18 @@
   background: none;
   transition: .5s;
 
+  &.google {
+    color: $google_colour;
+    border-color: $google_colour;
+    background: $white;
+
+    &:hover {
+      color: $white;
+      border-color: $google_colour;
+      background: $google_colour;
+    }
+  }
+
   &:hover {
     color: $white;
     border-color: $brand_dark;

@@ -25,7 +25,7 @@
     <section class="page-section location-section" id="location">
         <h1 class="section-title">Location</h1>
         <p class="centered-text">Thorpe Lodge is a well established venue nestled in the heart of KZN's sugar lands. Thorpe Lodge is just 2km outside the quaint little town of Wartburg.</p>
-        <a href="https://www.google.com.tw/maps/place/Thorpe+Lodge+Farm/@-29.4260636,30.6046499,17z/data=!4m12!1m6!3m5!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!2sThorpe+Lodge+Farm!8m2!3d-29.4260636!4d30.6068386!3m4!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!8m2!3d-29.4260636!4d30.6068386?hl=en" class="action-button centered">Google Maps</a>
+        <a href="https://www.google.com.tw/maps/place/Thorpe+Lodge+Farm/@-29.4260636,30.6046499,17z/data=!4m12!1m6!3m5!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!2sThorpe+Lodge+Farm!8m2!3d-29.4260636!4d30.6068386!3m4!1s0x1ef6c8b9b9c94ec7:0x387d2453a21042c3!8m2!3d-29.4260636!4d30.6068386?hl=en" class="action-button centered google" target="_blank">Google Maps</a>
         <img src="/images/map.jpg" alt="Map to Thorpe Lodge" class="map-image">
         <div class="directions-outer">
             <div class="direction-column">
