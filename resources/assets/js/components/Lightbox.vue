@@ -42,7 +42,6 @@
                               points="8.11 7.07 129.75 128.72 7.07 251.41"/>
                 </svg>
             </div>
-            <p class="lightbox-img-name" v-show="open">{{ galleryImages[current_pos].src.slice(19,-4) }}</p>
         </div>
         <p class="display-title" @click="open = true" v-show="!open">{{ title }}</p>
     </div>

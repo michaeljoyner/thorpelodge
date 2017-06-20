@@ -14,5 +14,5 @@ body {
   font-family: $body_font;
   padding-top: 170px;
 
-  @include respond-to(phone) { padding-top: 50px; }
+  @include respond-to(phone) { padding-top: 70px; }
 }
