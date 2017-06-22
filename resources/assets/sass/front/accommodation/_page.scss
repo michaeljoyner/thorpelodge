@@ -1,6 +1,8 @@
 .accommodation-hero {
-  background: url(./images/accommodation.jpeg);
+  background: url(./images/accommadation_wide.jpg);
   background-size: cover;
-  background-position-y: 60%;
-  background-position-x: 50%;
+
+  @include respond-to(phone) {
+    background-image: url(./images/accommadation_narrow.jpg);
+  }
 }

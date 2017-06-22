@@ -27,12 +27,12 @@
                            {src: "/galleries/wedding/gall_w6.jpg"},
                            {{--{src: "/galleries/wedding/gall_w7.jpg"},--}}
                            {src: "/galleries/wedding/gall_w8.jpg"},
-                           {src: "/galleries/wedding/gall_w10.jpg"},
+                           {{--{src: "/galleries/wedding/gall_w10.jpg"},--}}
                            {src: "/galleries/wedding/gall_w11.jpg"},
                            {{--{src: "/galleries/wedding/gall_w12.jpg"},--}}
                            {src: "/galleries/wedding/gall_w13.jpg"},
                            {{--{src: "/galleries/wedding/gall_w14.jpg"},--}}
-                           {src: "/galleries/wedding/gall_w15.jpg"},
+                           {{--{src: "/galleries/wedding/gall_w15.jpg"},--}}
                            {src: "/galleries/wedding/gall_w16.jpg"},
                            {src: "/galleries/wedding/gall_w17.jpg"},
                            {src: "/galleries/wedding/gall_w18.jpg"},
@@ -49,15 +49,15 @@
                            {src: "/galleries/wedding/gall_w29.jpg"},
                            {src: "/galleries/wedding/gall_w30.jpg"},
                            {{--{src: "/galleries/wedding/gall_w31.jpg"},--}}
-                           {src: "/galleries/wedding/gall_w32.jpg"},
-                           {src: "/galleries/wedding/gall_w33.jpg"},
+                           {{--{src: "/galleries/wedding/gall_w32.jpg"},--}}
+                           {{--{src: "/galleries/wedding/gall_w33.jpg"},--}}
                            {{--{src: "/galleries/wedding/gall_w34.jpg"},--}}
                            {src: "/galleries/wedding/gall_w35.jpg"},
                            {{--{src: "/galleries/wedding/gall_w36.jpg"},--}}
                            {{--{src: "/galleries/wedding/gall_w37.jpg"},--}}
                            {{--{src: "/galleries/wedding/gall_w38.jpg"},--}}
                            {src: "/galleries/wedding/gall_w39.jpg"},
-                           {src: "/galleries/wedding/gall_w40.jpg"}
+                           {{--{src: "/galleries/wedding/gall_w40.jpg"}--}}
                        ]'
             ></light-box>
             {{--<light-box :open="false"--}}
