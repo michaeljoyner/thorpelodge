@@ -35,7 +35,7 @@
     <section class="page-section wedding-venue-section no-bottom non-padded">
         <div class="section-inner">
             <div class="picture-call-out">
-                <img src="/images/accomodation.jpg" alt="rusty wheel">
+                <img src="/images/accommodation_hp.jpg" alt="rusty wheel">
                 <p>Thorpe lodge provides beautiful rooms with great service.</p>
                 <a href="/accommodation" class="coloured action-button centered">Accommodation</a>
             </div>
