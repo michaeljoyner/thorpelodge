@@ -6,7 +6,7 @@
         <a class="social-link" href="">@include('front.svgicons.social.pinterest')</a>
     </div>
     <p class="phone-contact">Tel: 033 503 1501</p>
-    <p class="phone-contact">Cell: 072 418 2733</p>
+    <p class="phone-contact">Cell: 072 418 2733 or 082 572 1722</p>
     <div class="credits">
         <p>&copy; All rights reserved. Website by <a href="https://dymanticdesign.com" target="_blank">Dymantic Design</a></p>
     </div>
