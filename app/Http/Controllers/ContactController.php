@@ -23,7 +23,7 @@ class ContactController extends Controller
             'inquiry' => ''
         ]);
 
-        Mail::to(['Michael Joyner' => 'joyner.michael@gmail.com'])->send(new ContactMessage($request->all()));
+        Mail::to(['Pam @ Thorpe Lodge' => 'thorpelodgeknz@gmail.com'])->send(new ContactMessage($request->all()));
 
         if($request->ajax()) {
             return response()->json('ok');
