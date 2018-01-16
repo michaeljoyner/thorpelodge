@@ -19,7 +19,7 @@
         <div class="contact-details">
             <p class="centered-text">Tel: 033 503 1501</p>
             <p class="centered-text">Cell: 072 418 2733 or 082 572 1722</p>
-            <p class="centered-text">Email: bookings@thorpelodge.co.za</p>
+            <p class="centered-text">Email: thorpelodgekzn@gmail.com</p>
         </div>
     </section>
     <section class="page-section location-section" id="location">
