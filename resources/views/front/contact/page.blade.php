@@ -17,9 +17,9 @@
         </div>
         <p class="centered-text">Alternatively, feel free to get in touch via telephone or email:</p>
         <div class="contact-details">
-            <p class="centered-text">Tel: 033 503 1501</p>
-            <p class="centered-text">Cell: 072 418 2733 or 082 572 1722</p>
-            <p class="centered-text">Email: thorpelodgekzn@gmail.com</p>
+            <p class="centered-text">Tel:<br> 033 503 1501</p>
+            <p class="centered-text">Cell:<br>072 418 2733 (Weddings & Functions) <br> 082 572 1722 (Accommodation)</p>
+            <p class="centered-text">Email:<br> thorpelodgekzn@gmail.com</p>
         </div>
     </section>
     <section class="page-section location-section" id="location">
